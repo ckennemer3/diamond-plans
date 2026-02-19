@@ -288,7 +288,7 @@ function PracticeSetupInner() {
       });
 
       // 4. Redirect to live practice
-      router.push(`/practice/live?session=${session_id}`);
+      router.push(`/practice/live?session_id=${session_id}`);
     } catch {
       toast.error('Unexpected error starting practice. Please try again.');
     } finally {

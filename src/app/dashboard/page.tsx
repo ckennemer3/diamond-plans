@@ -101,7 +101,7 @@ export default async function DashboardPage() {
 
       {/* ── Start Practice CTA ──────────────────────────────────────────────── */}
       <Link
-        href={`/dashboard/week/${currentWeek}`}
+        href={`/practice/setup?week=${currentWeek}`}
         className="flex items-center justify-center gap-3 w-full rounded-2xl font-bold text-xl text-white min-h-[72px] shadow-lg active:opacity-90 transition-opacity"
         style={{ backgroundColor: '#f97316' }}
       >
