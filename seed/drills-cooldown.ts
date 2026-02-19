@@ -1,0 +1,91 @@
+export const cooldownDrills = [
+  {
+    name: "Team Circle Talk",
+    category: "cooldown",
+    duration_minutes: 5,
+    min_kids: 1, max_kids: 12, min_coaches: 1, max_coaches: 6,
+    skill_level_target: "all",
+    equipment: [],
+    setup_instructions: "Find a shady patch of outfield or infield grass and have everyone — kids and coaches — sit in a tight circle together. Coach sits in the circle at the same level as the kids, not standing above them. Kids should be close enough that their knees nearly touch the person next to them. Keep the circle small and cozy; a loose scattered circle loses the group immediately at this age.",
+    how_to_explain_to_kids: "Everybody sit down right here in a circle — criss-cross applesauce! OK, we just had an AWESOME practice. Before we go home I want to hear from YOU. What was your favorite thing we did today? And what's one thing you learned — anything counts! I'll go first so you can see how it works. My favorite part today was when (say a specific real moment from practice). OK — who wants to go next? Raise your hand!",
+    step_by_step: [
+      "Get everyone seated in a tight circle on the grass — coaches sit down in the circle too, at kid eye level",
+      "Coach goes first to model exactly what you're asking for: say a specific moment from that practice, not a generic 'I loved everything' — 'My favorite part was when Tommy made that awesome catch on the first-base line'",
+      "Pass the turn around the circle — each kid shares their favorite part of practice; for shy kids who hesitate, say 'That's totally okay — just give me a thumbs up if you had fun today!' and move on without pressure",
+      "After everyone shares a favorite, shift to the second question: 'What's one thing you learned today?' — accept any answer enthusiastically, even if it's 'I learned dirt is dirty'",
+      "Sneak in one quick skill reminder tied to what you actually worked on that day: 'Remember — alligator arms LOW when you catch. Show me right now! CHOMP! Yes! That is exactly it!'",
+      "End with a genuine team compliment from the coach — say something specific about what the group did well that day, not just 'good job': 'You guys listened better today than any team I've ever coached. I'm really proud of how hard you worked.'",
+      "Transition directly into the next cooldown activity: 'OK — who's ready for the high five line?'"
+    ],
+    coaching_points: ["This is not a lecture or a recap — it is a conversation where kids do most of the talking. Aim for 80% kids talking, 20% coach talking. Ask questions, listen actively, validate everything they say. If a kid shares something completely off-topic, laugh with them and say 'Great observation!' The entire point is that every single kid leaves feeling like they were heard."],
+    common_mistakes: [
+      "Every kid will try to talk at the exact same time the moment you open the floor. Fix: Hold up a tennis ball and introduce it as the 'talking ball' — only the person holding the ball can speak, everyone else listens. Pass it around the circle. This works with 4-year-olds at a rate that will genuinely surprise you.",
+      "Some kids will stare at the ground and refuse to share anything. Fix: Never force it and never single them out. Switch to a yes-or-no question: 'Did you like hitting today?' is a hundred times easier than 'What did you learn?' Even a small nod counts as participation.",
+      "The coach will accidentally talk for 3-4 minutes straight — recapping the whole practice, reminding kids of every coaching point, and losing the entire group's attention. Fix: Set a personal rule before the circle starts — you get 30 seconds maximum, then it is a kid's turn. They were there; they don't need a summary."
+    ],
+    progressions: "Let a different kid lead the circle talk each week — they pick who goes next and ask the questions. Add a 'shout out' round after favorites where each kid says one nice thing about a teammate by name. Introduce a 'goal for next practice' so kids arrive the following week with something specific in mind.",
+    regressions: "Shrink it to one single question: 'Did you have fun today?' and do a quick fist bump around the circle. Keep it under 2 minutes. If the group is too wound up to sit still after practice, skip the circle entirely and flow straight into the high five line — you can try again next time.",
+    fun_factor: 3,
+    week_introduced: 1,
+  },
+  {
+    name: "High Five Line",
+    category: "cooldown",
+    duration_minutes: 3,
+    min_kids: 1, max_kids: 12, min_coaches: 1, max_coaches: 6,
+    skill_level_target: "all",
+    equipment: [],
+    setup_instructions: "All coaches line up in a single-file row, standing about 3 feet apart from one another, facing toward the kids. Kids form a single-file line about 10 feet away, also facing the coaches. Do this near the dugout entrance or wherever parents are gathering to pick up their kids — it serves as both a cooldown ritual and a natural handoff moment from team to family.",
+    how_to_explain_to_kids: "OK team, line up right here facing us! We're doing the high five line! You're going to walk down the line and give every single coach a high five. But not just any high five — I want the BEST, LOUDEST, most AMAZING high fives you have ever given in your entire life. Ready? First person, let's GO!",
+    step_by_step: [
+      "Coaches line up shoulder to shoulder with hands already raised, palms out and ready — set the energy before the first kid arrives",
+      "Kids line up single-file facing the coaches, about 10 feet back from the first coach in line",
+      "First kid walks — not runs — down the full line of coaches, high-fiving each one; each coach says something specific to that individual kid as they pass",
+      "Keep each comment personal and genuine: 'Dude, that throw you made to second base was PERFECT' lands so much harder than 'Good job today'",
+      "After the last coach in line, kids proceed directly to their parents or to the water station — this is the official end of practice",
+      "The very last kid through the line gets an extra-loud simultaneous 'GREAT JOB!' from every coach at the same time — make it a moment",
+      "If kids immediately want to loop back through again (they almost always do), let them — two or three passes through the line is fine",
+      "Mix up the contact: alternate high fives with fist bumps, add a down-low/too-slow fake-out, do an 'exploding' fist bump — keep it fresh so it's something kids look forward to"
+    ],
+    coaching_points: ["This is the very last impression of practice. Whatever happened during the two hours before this moment, every single kid walks away from this line feeling like a champion. Look each kid in the eyes, say their name, and find something genuine to say — even for the kid who had the hardest day and cried twice. Especially for that kid."],
+    common_mistakes: [
+      "Kids will sprint through the line barely slapping hands at full speed, turning it into a chaotic blur. Fix: Model it yourself first — walk slowly through the line with exaggerated, dramatic high fives. Say 'Walk, don't run! Make each one count! I want to FEEL that high five!'",
+      "Coaches will give the same generic 'good job' to every single kid because they haven't thought of specific things to say. Fix: During the circle talk — the two minutes before the high five line — each coach quietly picks 2-3 specific moments they noticed about individual kids so the comments in the line are ready to go.",
+      "A shy kid will veer around the line entirely and run straight to their parents. Fix: Never force it. Catch their eye, smile, say 'See you next time!' and give a big wave. If they want to come back for a fist bump on their own terms, they will."
+    ],
+    progressions: "Work with the team over multiple weeks to develop a unique team secret handshake — add one move each practice until it becomes an elaborate ritual. Let kids high-five each other after the coach line. Add a tunnel variation: coaches raise their arms overhead and kids sprint through underneath.",
+    regressions: "For kids who are touch-averse, offer fist bumps, elbow bumps, or a simple wave — make it clear every option is equally cool. If the line format creates chaos because of a large or very energetic group, coaches can walk individually through the crowd and say goodbye kid by kid instead.",
+    fun_factor: 4,
+    week_introduced: 1,
+  },
+  {
+    name: "Team Cheer",
+    category: "cooldown",
+    duration_minutes: 4,
+    min_kids: 1, max_kids: 12, min_coaches: 1, max_coaches: 6,
+    skill_level_target: "all",
+    equipment: [],
+    setup_instructions: "Gather every person — all kids and all coaches — into a tight standing huddle near the dugout or home plate. Everyone stands in a circle, shoulder to shoulder, as close as possible. Coach kneels or crouches down to kid height and places their hand in the exact middle of the circle, palm facing down. This should be the very last thing that happens before kids walk to their parents — make it the exclamation point at the end of every single practice all season.",
+    how_to_explain_to_kids: "OK TEAM, huddle up — everybody IN, get close, closer! Hands in the middle! Stack your hand right on top of mine — everybody! We need a team cheer! What's our team name? On three, we yell our team name as LOUD as we possibly can and throw our hands up in the air! Here we go — ONE! TWO! THREE — (TEAM NAME)!!!",
+    step_by_step: [
+      "Gather everyone into the tightest huddle possible — coaches get down on one knee so their head is at the same level as the kids' heads",
+      "Coach places their hand flat in the middle of the circle, palm down, and says 'Everybody put your hand on top of mine — pile them up!'",
+      "Wait for every hand to be in the pile — the scramble to get a hand in is half the fun and kids take it seriously",
+      "On the very first practice of the season, pause here and ask: 'What is our team name going to be?' — if they can't decide in 30 seconds, give exactly two options and let the loudest cheer decide: 'Are we the SHARKS or the THUNDER?'",
+      "Build the countdown slowly and dramatically: 'Ready? One... two... THREE—' then everyone yells the team name as loud as possible and throws their hands straight up",
+      "The first attempt will always be half-hearted and quiet. Say immediately: 'That was WEAK! I could barely hear you! Way louder — do it again!' The second attempt will be 10 times better.",
+      "Do it one final time: 'LAST ONE! I want the parking lot to hear this! ONE! TWO! THREE—' Make this one the loudest",
+      "Practice officially over — kids sprint to their parents; the season ritual is now established"
+    ],
+    coaching_points: ["This is a ritual, not a drill. Do it the exact same way at the exact same time at every single practice all season long. Within three weeks, kids will remind YOU if you try to skip it. They will ask for it by name. The repetition is what creates belonging and team identity. Never skip it — even if practice ran long, even if it's raining, 30 seconds for the cheer no matter what."],
+    common_mistakes: [
+      "Kids will spend 5 minutes arguing about the team name and nothing gets decided. Fix: Give exactly two options and run a cheer vote — whichever team name gets the loudest scream is the name. The whole thing takes 15 seconds and everyone is happy because their voice was part of the decision.",
+      "The cheer comes out quiet and flat because kids look to the coach for energy and the coach is being calm. Fix: YOU are the loudest and most enthusiastic person every single time. Get low, slow down the countdown to build anticipation: 'Onnnnne... twwwwwoo... THREE!' Your energy directly sets their energy — if you're flat, they're flat.",
+      "Some kids' hands slip off the pile right before the cheer and they feel left out. Fix: Don't stress about a perfect hand stack — as long as everyone has a hand somewhere in the general direction of the middle, it counts. The spirit of the gesture matters infinitely more than the geometry of it."
+    ],
+    progressions: "Rotate which kid gets to lead the countdown each practice — being the one who says 'One, two, three' is a genuine honor that kids will look forward to and remember. Add a second call-and-response line: coach yells 'What are we?' and kids yell back the team name. Over the season, build a full chant with a clap pattern unique to your team.",
+    regressions: "For groups that are too shy or too tired to go big on the first try, build it in three stages: start with a whisper-cheer, then a medium-volume cheer, then the full blast. This builds momentum so the final shout feels earned. For very small groups or a single kid at pickup, just raise hands together and say the name — the ritual matters even when it's just you and one player.",
+    fun_factor: 5,
+    week_introduced: 1,
+  },
+];

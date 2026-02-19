@@ -1,0 +1,137 @@
+export const baserunningDrills = [
+  {
+    name: "Home to First Sprint",
+    category: "baserunning",
+    duration_minutes: 7,
+    min_kids: 2, max_kids: 12, min_coaches: 1, max_coaches: 2,
+    skill_level_target: "all",
+    equipment: ["home plate", "first base (or cone at 60 feet)", "2 cones to mark the running lane"],
+    setup_instructions: "Use home plate and first base on the actual T-ball field — they are 60 feet apart. Place one cone 6 feet past first base in foul territory (to the right of the base) to mark where runners should run THROUGH the base, not stop on it. Place a second cone on the foul side of the first-base line halfway between home and first (at 30 feet) so kids can see the straight path. All kids line up single-file behind home plate in foul territory (a few feet to the right of home plate), NOT on the baseline itself. If you have a second coach, station them at first base on the foul side to receive runners and redirect them back toward home.",
+    how_to_explain_to_kids: "Okay, here's the secret about first base. You don't stop ON the bag — you run THROUGH it like you're chasing a runaway puppy that ran past the base! See that orange cone past first base? That's where the puppy went. Sprint from home plate, stomp on the base with your foot as you go by, keep going all the way to that cone, THEN stop. If you slow down before the bag, the puppy escapes! Ready? Let's catch some puppies!",
+    step_by_step: [
+      "Line all kids up single-file behind home plate in foul territory, a few feet to the right of home plate so they are not in the baseline",
+      "Demonstrate the run yourself first — sprint the full 60 feet from home plate, stomp loudly on the inside corner of first base, run past it all the way to the cone, then stop and turn LEFT (toward the infield) while looking back",
+      "Walk back to home plate and explain the two rules out loud: 'Rule one: run as fast as you can the whole way. Rule two: do not stop until you get to that orange cone past the base'",
+      "Send the first kid with a loud 'GO!' and narrate the whole run — 'Sprint! Sprint! Stomp it! KEEP GOING! Go go go! Stop!'",
+      "Coach stationed at first base watches for two things only: did the foot hit the bag, and did they run through instead of stopping on it — give a quick thumbs up or thumbs down signal to the main coach",
+      "After each runner reaches the far cone, they stop, turn LEFT toward the infield, and walk back along the foul line to the end of the line — never across the field",
+      "Once the first runner is halfway back to home plate, send the next kid so there is a continuous flow with no standing around",
+      "After everyone runs once, add a batting tee at home plate — each kid takes a pretend swing (or real swing off the tee), drops the bat, and sprints to first — this adds the game-realistic trigger of a hit ball",
+      "Run 4 to 6 total trips per kid — the goal is actual cardiovascular effort and muscle memory from repetition"
+    ],
+    coaching_points: [
+      "Say one phrase every single rep: 'Run THROUGH the base, not TO the base.' That phrase alone fixes the most common mistake. Save all other feedback for after the full group has gone once.",
+    ],
+    common_mistakes: [
+      "Kids will slam on the brakes and stop directly ON first base every single time — this is the universal beginner mistake. Fix: Stand 8 feet past first base and hold out your hand for a high-five. Tell every kid before they run: 'You have to reach MY hand to complete the run.' The high-five physically moves the finish line past the bag so stopping on the base is no longer an option.",
+      "Kids will veer left into the infield grass as they approach first base instead of staying in the running lane. Fix: Place two cones 4 feet apart just before first base to create a narrow gate they must run through. Say 'Stay between the cones like a race car staying in its lane!' If they keep drifting, stand at the gate and point them straight.",
+      "Kids will turn toward second base after passing first, which in a real game means they can be tagged out. Fix: After every runner passes first and stops at the far cone, immediately say 'Turn LEFT — toward me!' while pointing toward foul territory. Point every single rep. After 3 rounds it becomes automatic.",
+      "Kids will watch their feet and look down at the base as they approach, which causes them to slow down. Fix: Hold up a number of fingers and stand past first base. Tell each kid before they run: 'How many fingers am I holding up? Tell me WHILE you run past the bag!' Their head stays up chasing your fingers, not looking down at the base."
+    ],
+    progressions: "Have a coach or parent stand in the infield and pretend to field a grounder after each 'hit' — the runner has to actually sprint to beat the pretend throw. This adds game-speed urgency. You can also place a second base at second and have kids who are ready overrun first and round toward second.",
+    regressions: "Shorten the distance to 30 feet by moving first base (or the cone) halfway up the baseline. Walk the route with each kid first, holding their hand and stomping on the base together before any running happens. Remove all instructions and just say 'Run fast and stomp that bag!'",
+    fun_factor: 4,
+    week_introduced: 1,
+  },
+  {
+    name: "Base Circuit",
+    category: "baserunning",
+    duration_minutes: 8,
+    min_kids: 2, max_kids: 10, min_coaches: 1, max_coaches: 3,
+    skill_level_target: "all",
+    equipment: ["4 bases (home plate, first base, second base, third base)", "4 cones (one placed 4 feet outside of each base to mark the turn line)"],
+    setup_instructions: "Use all four actual T-ball bases on the field with 60-foot basepaths. At first base, second base, and third base, place a cone 4 feet into foul territory (or into the grass) directly beside the base — this cone marks where kids should curve TOWARD before touching the base and continuing. Home plate needs no extra cone. All kids start in a single-file line behind home plate in foul territory. If you have two extra coaches, station one at first base and one at third base to physically point runners toward the next base as they come through. If running this drill solo, stand at the pitcher's mound where you can see all four bases at once.",
+    how_to_explain_to_kids: "We're going to run all the way around ALL FOUR bases and come back home — that's a home run! But here's the secret trick: you can't run like a robot in a square. You have to run like a race car! Race cars curve on turns. See this cone next to first base? When you get close to first base, curve toward that cone a little bit, touch the base on the inside corner, then zoom toward second! You're a race car — VROOM! Race cars never stop at the finish line, they zoom right past it!",
+    step_by_step: [
+      "Walk the entire circuit with the whole group BEFORE anyone runs — literally walk all four bases together as a team at normal walking pace, stopping at each base to point out where the curve cone is",
+      "At each base during the walk-through, demonstrate curving: angle toward the cone that is 4 feet outside the base, then touch the inside corner of the bag, then continue toward the next base — say 'Curve, touch, go!' at each one",
+      "Return everyone to home plate after the walk-through and ask 'What do race cars do at turns?' — wait for them to say 'curve!' before starting",
+      "Send the first runner with a big 'RACE CAR GO!' — the coach at the mound narrates loudly: 'Curve at first! Touch it! Zoom to second! Curve at second! Touch it! Zoom to third! Last turn! HOME!'",
+      "Wait until the first runner reaches second base before sending the next kid from home plate — this keeps runners spaced at least two bases apart so nobody crashes",
+      "Each runner who touches home plate and completes the circuit gets a loud group 'HOME RUN!' call — coach throws hands up and everyone cheers",
+      "After every single kid runs the circuit once, call them all back to home plate and spend 30 seconds fixing the one thing you saw most kids get wrong before the second round",
+      "Second round: add coaches at first and third who hold out a fist for a fist-bump as runners come through — the runner has to reach toward the fist, which naturally creates a proper rounding angle toward the base"
+    ],
+    coaching_points: [
+      "The curved turn at each base is the entire point of this drill and the only thing worth correcting. Say 'Curve like a race car, not a square like a robot!' every time a kid turns sharp. Kids understand race cars instantly.",
+    ],
+    common_mistakes: [
+      "Kids will run in a literal square with sharp 90-degree right-angle turns at every base. This is the most common mistake. Fix: Before they run, walk them to first base and physically show the curve — stand at the cone 4 feet outside first base and say 'Run toward me first, THEN touch the base.' The extra cone gives them a visual target to curve toward before the bag.",
+      "Kids will stop at first base as if the run is over, because that is what they are used to from the 'Home to First Sprint' drill. Fix: Every single time before they run, point at home plate and say loudly 'You run ALL the way back HERE. Four bases. Go!' Also have a coach or parent cheer from home plate so there is something pulling them all the way around.",
+      "Kids will miss second base entirely — they curve wide around first and then cut straight to third, skipping second altogether. Fix: Station a coach at second base who holds their hand out at knee height. The runner must slap the hand to 'count' the base. Without a person or physical target at second, kids lose track of it.",
+      "Runners will pile up and crash into each other because a slow runner is still on second when the next runner arrives. Fix: Never send a new runner from home until the runner ahead is past second base. If you have more than 6 kids, shorten the interval to 'runner ahead must be past first' so faster kids still keep moving."
+    ],
+    progressions: "Time each kid with a phone stopwatch and announce the time after they touch home. Let them try to beat their own time on the second lap. You can also add a rule: if you stop or slow to a walk at any base, you restart that base. For the most advanced kids, place a coach in the outfield to 'field a hit' while the runner runs — they have to run hard to beat the pretend throw.",
+    regressions: "Have a coach run side-by-side with each kid the entire circuit for the first round, pointing at each base and guiding around each turn in real time. Shorten the basepaths to 40 feet using cones instead of real bases. Run only home to first to second (two bases) until kids can do that smoothly, then add third and home.",
+    fun_factor: 4,
+    week_introduced: 2,
+  },
+  {
+    name: "Freeze Tag Bases",
+    category: "baserunning",
+    duration_minutes: 6,
+    min_kids: 4, max_kids: 12, min_coaches: 1, max_coaches: 2,
+    skill_level_target: "all",
+    equipment: ["4 bases (home plate, first base, second base, third base)", "1 bright jersey or pennant to identify the tagger"],
+    setup_instructions: "Use all four actual T-ball bases on the field with 60-foot basepaths — these are the safe zones. The playing area is the entire infield including the grass between the bases. One kid wears a bright pennant or jersey to be the tagger — this makes it 100 percent clear who is 'it' and prevents arguments. All other kids start standing near home plate. The tagger starts at the pitcher's mound (roughly the center of the diamond, about 46 feet from home plate). The main coach stands near the third-base line where they can see all four bases clearly. If you have a second coach, station them near first base to manage the one-kid-per-base rule on that side of the diamond.",
+    how_to_explain_to_kids: "We're playing freeze tag — but with a baseball rule! If the tagger touches you, you are FROZEN like a statue — arms out, do not move! BUT — if your feet are ON one of these bases when they try to tag you, you are TOTALLY SAFE! The base is your force field! There is one catch though: only ONE person can be on each base at a time. If two people run to the same base, the person who got there SECOND has to leave immediately and run somewhere else. And if you are frozen, a teammate can run and tag your hand to unfreeze you!",
+    step_by_step: [
+      "Pick one energetic kid to be the tagger and put the pennant on them — choose someone who will enjoy chasing and won't get discouraged; swap the tagger every 90 seconds to 2 minutes",
+      "Before starting, act out the freeze with a volunteer: tag them, they freeze with arms out, another kid runs over and tags their hand, they are free — do this demonstration twice so every kid understands the unfreeze mechanic",
+      "Announce the two non-negotiable rules out loud and have kids repeat them back: 'One — standing ON the base means you are safe. Two — only ONE kid per base at a time. If two kids run to the same base, who has to leave?' Wait for them to answer: 'The one who got there second!'",
+      "Start the round by yelling 'PLAY BALL!' — all non-tagger kids scatter off home plate toward any of the four bases",
+      "Coach counts loudly to five any time a kid has been planted on a base for too long — 'One! Two! Three! Four! FIVE — you gotta run!' — then that kid must immediately leave and sprint to a different base",
+      "When a kid gets tagged, they freeze with arms straight out and wait — a teammate can sprint over and tag their outstretched hand to unfreeze them; coach shouts encouragement like 'Go save Maya! She's frozen at second!'",
+      "Enforce the one-kid-per-base rule every single time it happens — say loudly 'Logan was there first! Parker, you gotta go!' and point to a different base Parker should run to",
+      "After 90 seconds to 2 minutes, yell 'SWITCH!' and pick a new tagger — give the pennant to a kid who has been frozen multiple times so they get a turn doing the chasing; run 3 full rounds"
+    ],
+    coaching_points: [
+      "Let the chaos happen — this drill builds baserunning instinct through actual decision-making under pressure. Your only job is to enforce the two rules (on the base = safe, one kid per base) and keep the five-count moving so nobody camps.",
+    ],
+    common_mistakes: [
+      "Kids will park on a base and refuse to leave even when you count, treating the base like a permanent hiding spot. Fix: Enforce the five-count every single time without any exceptions. Be loud and theatrical — 'ONE! TWO! THREE! FOUR! FIVE — MOVE!' and physically point at a different base for them to run to. Once kids know you always follow through, they start making pre-emptive dashes before you even start counting.",
+      "Two kids will argue about who got to the base first, with both insisting they were there before the other. Fix: Make the tie-breaking rule clear before the game starts and repeat it during every dispute: 'If you both got here at the same exact time, BOTH of you leave.' No discussion, no appeals. Both kids have to run. This eliminates the incentive to argue because arguing only makes it worse for both of them.",
+      "The tagger will give up and stop chasing after 30 seconds because they cannot catch anyone and it feels hopeless. Fix: Secretly shorten the five-count to three during a tough round to force more running. Also quietly add a second tagger without making a big announcement. Encourage the tagger out loud by name constantly: 'You almost had Riley! Go go go!'",
+      "Very timid or shy kids will freeze themselves voluntarily near a base and just wait to be unfrozen repeatedly rather than trying to run to open bases. Fix: Stand right next to the hesitant kid during a break in the action and make a plan together: 'We're going to run to third base together on my count — ready? One, two, THREE, go!' Take one running step with them to break the frozen-by-choice habit."
+    ],
+    progressions: "Add a rule that kids must yell the NAME of the base they are sprinting to before they take their first step — 'SECOND!' or 'THIRD!' — so they are forced to identify bases out loud before running. You can also add a baseball spin: frozen kids must hold a batting stance instead of arms-out, which keeps the baseball context present.",
+    regressions: "Remove the freeze mechanic entirely and play pure tag — tagged kids sit out for 15 seconds then rejoin, which is easier to manage. Reduce to just two safe zones (home plate and second base only) to shrink the field and reduce decision complexity for very young or timid kids. Coach moves at a slow walking pace to reduce anxiety.",
+    fun_factor: 5,
+    week_introduced: 1,
+  },
+  {
+    name: "Traffic Light",
+    category: "baserunning",
+    duration_minutes: 7,
+    min_kids: 2, max_kids: 12, min_coaches: 1, max_coaches: 2,
+    skill_level_target: "all",
+    equipment: ["4 bases (home plate, first base, second base, third base)", "3 cones in different colors if available (green, yellow, red) — or regular cones"],
+    setup_instructions: "Use all four actual T-ball bases on the field with 60-foot basepaths. Coach stands at the pitcher's mound (46 feet from home plate) in the center of the infield — this central position is critical because every runner on every part of the circuit must be able to hear the color calls clearly. All kids start in a single-file line behind home plate in foul territory. Space kids about 10 feet apart when sending them so there are multiple runners on the circuit at once but nobody crashes. If you have colored cones, hold one up when you call its color — the visual reinforces the verbal command for kids who are not yet strong listeners. If you have a second coach, station them at second base to manage runners who are mid-circuit when a new command comes.",
+    how_to_explain_to_kids: "You know how traffic lights work in the car? Green means GO fast, red means STOP right now, yellow means slow way down. We're playing that game — but YOU are the race cars running around the bases! When I yell GREEN — you sprint as fast as your legs can go! When I yell RED — you STOP right where you are and freeze like a statue, even if you're between bases! When I yell YELLOW — you slow all the way down to a super silly slow-motion jog. You have to LISTEN because I can change the light anytime I want — even right in the middle of your run! Let's practice first — what does GREEN mean? What does RED mean? What about YELLOW? Okay. Let's GO!",
+    step_by_step: [
+      "Before anyone runs, do a 30-second standing practice at home plate: call each color and have kids respond in place — 'GREEN!' they run in place fast, 'RED!' they freeze, 'YELLOW!' they jog in place slow — do this until all three responses are instant",
+      "Send the first runner from home plate on a 'GREEN' call — they sprint toward first base",
+      "Count 3 seconds, then send the next kid from home so there is staggered spacing between runners on the circuit",
+      "Continue sending kids every 3 seconds until 3 to 4 runners are on the circuit simultaneously — now the drill has real chaos and listening challenge",
+      "After the runners have been sprinting for 5 to 8 seconds, call 'RED' — ALL runners on the circuit freeze immediately, even if they are between bases; coach scans to see who stopped quickly and who kept running",
+      "Hold the RED for 3 to 5 seconds while you look at everyone's feet — this is when you give the only correction: point at anyone still moving and say 'Red light! Freeze!'",
+      "Call 'GREEN' to restart all runners simultaneously from wherever they froze — they all take off again",
+      "Call 'YELLOW' and make it ridiculous — do slow-motion running in place yourself while calling it, which makes kids laugh and makes the slow-motion compliance contagious",
+      "Alternate the colors in completely unpredictable patterns — never go green, yellow, red in the same order twice, because kids will anticipate instead of listen; try GREEN, GREEN, RED or YELLOW, YELLOW, GREEN, RED",
+      "Any runner who completes the full circuit and touches home plate on a GREEN call earns a 'HOME RUN!' shout from the team — they go to the back of the line and a new kid from home starts on the next GREEN call"
+    ],
+    coaching_points: [
+      "Call RED unpredictably and vary how long you hold each color — a long GREEN followed by a surprise RED right before a base catches kids running full speed and teaches them that stopping on command is a real skill that takes practice.",
+    ],
+    common_mistakes: [
+      "Kids will keep running 3 to 4 steps after you call RED before stopping, because at full sprint their body is not used to stopping immediately. Fix: Make stopping instantly into a named competition — say 'I'm watching who has the FASTEST freeze on red. Ready?' and point out the quickest stopper by first name after every RED call. Public praise for the fastest stoppers motivates everyone to stop quicker. You can also hold up a red cone when you call it — the visual plus verbal combination speeds up the freeze.",
+      "Kids between bases when RED is called will not know whether to freeze between the bases or run to the next base, and will stand awkwardly indecisive in the baseline. Fix: Tell them this rule before the drill starts and repeat it during the first RED: 'If you are between two bases when I say RED, keep going forward to the next base and stop THERE. Always forward, never backward.' This actually teaches the real baserunning rule about committing to a base.",
+      "Kids will ignore YELLOW and keep sprinting because they are excited and the competitive instinct says go fast. Fix: Make YELLOW the funniest command of the whole drill. When you call it, immediately start your own exaggerated slow-motion running in place, grunt loudly in slow motion, and call out any kid you see slowing down correctly by name: 'Oh WOW look at how slow Parker is going — that is PERFECT slow motion!' Extreme coach silliness gets extreme compliance from 4-year-olds.",
+      "Kids waiting in the line at home plate will stop paying attention after 30 seconds and miss the GREEN signal that tells them to start running, creating a traffic jam where nobody new enters the circuit. Fix: Have the second coach stand at home plate and physically tap each waiting kid on the shoulder on GREEN — a physical tap lands more reliably than a voice call for a distracted 4-year-old who is staring at a bug on the ground."
+    ],
+    progressions: "Add a fourth command: 'PURPLE' or 'BLUE' means take two steps backward from wherever you are — this is the hardest command and forces kids to reverse direction mid-sprint. You can also chain two colors: 'YELLOW then GREEN!' called quickly means slow down then immediately burst into a sprint, which teaches kids to accelerate from a controlled pace.",
+    regressions: "Use only two commands to start — GREEN and RED only, no YELLOW — until kids have mastered the stop-go concept. Stand at first base and run the drill only between home plate and first base as a straight 60-foot sprint instead of the full circuit. Hold each command for longer (10 full seconds of GREEN, 5 full seconds of RED) so kids have time to process each color before it changes.",
+    fun_factor: 5,
+    week_introduced: 3,
+  },
+];
