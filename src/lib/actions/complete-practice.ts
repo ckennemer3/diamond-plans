@@ -100,6 +100,20 @@ export async function completePractice(
   };
 }
 
+// ── Helper: cancel (reset) a practice session back to 'planning' ─────────────
+
+export async function cancelPractice(
+  session_id: string
+): Promise<{ success: true } | { success: false; error: string }> {
+  const supabase = await createClient();
+  const { error } = await supabase
+    .from('practice_sessions')
+    .update({ status: 'planning', completed_at: null })
+    .eq('id', session_id);
+  if (error) return { success: false, error: error.message };
+  return { success: true };
+}
+
 // ── Helper: fetch all feedback for a session ─────────────────────────────────
 
 export interface GetSessionFeedbackResult {

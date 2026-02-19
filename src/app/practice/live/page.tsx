@@ -14,6 +14,7 @@ import CompactDrillCard from '@/components/CompactDrillCard';
 import DrillCard from '@/components/DrillCard';
 import type { PracticeSegment } from '@/contexts/PracticeContext';
 import type { Player, Profile, SegmentType } from '@/lib/types';
+import { cancelPractice } from '@/lib/actions/complete-practice';
 
 // ---- Helpers ---------------------------------------------------------------
 
@@ -331,6 +332,16 @@ function LivePracticeInner({
     setModalSegment(seg);
   }, []);
 
+  // ── Cancel practice ─────────────────────────────────────────────────────────
+  const [showCancelConfirm, setShowCancelConfirm] = useState(false);
+  const [cancelling, setCancelling] = useState(false);
+
+  const handleCancel = useCallback(async () => {
+    setCancelling(true);
+    await cancelPractice(sessionId);
+    router.push('/dashboard');
+  }, [sessionId, router]);
+
   return (
     <div className="min-h-screen bg-[#fafaf9] flex flex-col">
       <OfflineIndicator />
@@ -343,17 +354,52 @@ function LivePracticeInner({
           </svg>
           <span className="text-white font-bold text-base tracking-tight">Live Practice</span>
         </div>
-        {currentSegment && (
-          <span
-            className={[
-              'inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold',
-              segmentTypeBgColors[segType],
-            ].join(' ')}
+        <div className="flex items-center gap-2">
+          {currentSegment && (
+            <span
+              className={[
+                'inline-flex items-center px-2 py-0.5 rounded-full text-xs font-semibold',
+                segmentTypeBgColors[segType],
+              ].join(' ')}
+            >
+              {segmentTypeLabels[segType]}
+            </span>
+          )}
+          <button
+            onClick={() => setShowCancelConfirm(true)}
+            className="text-white/60 hover:text-white text-xs font-semibold px-2 py-1 rounded-lg border border-white/20 hover:border-white/50 transition-colors min-h-[36px]"
           >
-            {segmentTypeLabels[segType]}
-          </span>
-        )}
+            Cancel
+          </button>
+        </div>
       </header>
+
+      {/* Cancel confirmation dialog */}
+      {showCancelConfirm && (
+        <div className="fixed inset-0 z-50 bg-black/60 flex items-center justify-center px-6">
+          <div className="bg-white rounded-2xl p-6 w-full max-w-sm shadow-xl">
+            <h2 className="text-[#1e3a5f] font-bold text-xl mb-2">Cancel Practice?</h2>
+            <p className="text-gray-600 text-sm mb-6">
+              This will cancel the current session and send everyone back to the dashboard. You can start a new practice anytime.
+            </p>
+            <div className="flex gap-3">
+              <button
+                onClick={() => setShowCancelConfirm(false)}
+                className="flex-1 bg-gray-100 text-gray-700 font-semibold rounded-xl min-h-[48px] text-base"
+              >
+                Keep Going
+              </button>
+              <button
+                onClick={handleCancel}
+                disabled={cancelling}
+                className="flex-1 bg-red-500 text-white font-semibold rounded-xl min-h-[48px] text-base disabled:opacity-50"
+              >
+                {cancelling ? 'Cancelling…' : 'Yes, Cancel'}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Scrollable content */}
       <main className="flex-1 overflow-y-auto px-4 py-6 max-w-2xl mx-auto w-full space-y-6">
